@@ -13,7 +13,7 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  script: python setup.py install
+  script: python setup.py install --single-version-externally-managed --record record.txt
   number: 0
 
 requirements:
