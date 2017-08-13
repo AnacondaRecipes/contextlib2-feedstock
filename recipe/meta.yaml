@@ -34,8 +34,14 @@ about:
   license_family: PSF
   license_file: LICENSE.txt
   summary: 'Backports and enhancements for the contextlib module'
+  description: |
+    Contextlib2 provides backports of features in the latest version of the
+    standard library's contextlib module to earlier Python versions. It also
+    serves as a real world proving ground for potential future enhancements
+    to that module.
   dev_url: https://github.com/jazzband/contextlib2
   doc_url: http://contextlib2.readthedocs.org
+  doc_source_url: https://github.com/jazzband/contextlib2/blob/master/docs/index.rst
 
 extra:
   recipe-maintainers:
