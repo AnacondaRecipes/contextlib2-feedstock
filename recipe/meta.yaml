@@ -21,13 +21,18 @@ requirements:
   host:
     - python
     - pip
-
+    - setuptools
+    - wheel
   run:
     - python
 
 test:
   imports:
     - contextlib2
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: http://contextlib2.readthedocs.org
